@@ -4,13 +4,16 @@
 #Author: Cameron Griffin
 #Date of latest revision: 11-9-2022
 #Purpose: Print a last logins
-#But it doesn't do anything
+
 
 
 #Main
-users_login() { 
-        echo ~$last 
+var=last
+
+users_login () {
+        $var
 }
 
+users_login
 
 #End
